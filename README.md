@@ -6,31 +6,45 @@ The Medical Insurance Cost Prediction Web App uses a machine learning model to p
 
 # Features
 -User-friendly web interface for inputting individual details.
+
 -Real-time prediction of medical insurance costs.
+
 -Visualization of feature importance.
+
 -Detailed exploratory data analysis (EDA).
+
 -Model evaluation metrics for performance assessment.
+
 -Easy to use and extend.
 
 # Usage
-Open your web browser and navigate to http://localhost:8501.
+Open your web browser and navigate to https://ml-project-11-medical-insurance-cost-prediction-webapp-aivst8a.streamlit.app/
+
 Input the details like age, sex, BMI, number of children, smoking status, and region.
+
 Click on the "Predict" button to get the predicted medical insurance cost.
+
 
 # Exploratory Data Analysis (EDA)
 The EDA process involved analyzing the dataset to understand the distribution and relationships of the features. Key steps included:
 
 Visualizing the distribution of numerical features (age, BMI, charges).
+
 Examining the correlation between features and the target variable.
+
 Checking for missing values and outliers.
+
 Analyzing categorical features (sex, smoker, region) using bar plots.
 
 #  Model
 The machine learning model used for prediction is a linear regression model trained on the Medical Cost Personal Datasets. The linear regression algorithm is chosen for its simplicity and interpretability, making it suitable for this regression problem.
 
 Training the Model
+
 Data Preprocessing: The dataset was cleaned and preprocessed to handle categorical variables using one-hot encoding. Missing values were handled appropriately.
+
 Feature Selection: The features used for training include:
+
 Age
 Sex
 BMI
@@ -59,4 +73,4 @@ The final model provides predictions for gold prices with a certain accuracy. Th
 Contributions are welcome! If you have any improvements or suggestions, feel free to open a pull request or create an issue.
 
 # Deployment
-The application is deployed using Streamlit. You can access it here = https://ml-project-8-gold-price-prediction-s7ye4yjuuzal5idhfppksf.streamlit.app/
+The application is deployed using Streamlit. You can access it here = https://ml-project-11-medical-insurance-cost-prediction-webapp-aivst8a.streamlit.app/
