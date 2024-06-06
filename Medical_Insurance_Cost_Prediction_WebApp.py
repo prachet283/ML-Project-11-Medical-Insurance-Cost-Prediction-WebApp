@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-11-Medical Insurance Cost Prediction/medical_insurance_cost_prediction_model.sav",'rb'))
+loaded_model = pickle.load(open("medical_insurance_cost_prediction_model.sav",'rb'))
 
 #creating a function for prediction
 
