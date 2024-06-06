@@ -55,7 +55,7 @@ Region
 Model Training: A linear regression model was trained using the Scikit-learn library. The model learns the relationship between the features and the target variable (medical insurance cost).
 
 # Evaluation
-The model is evaluated using R-squared score. R Squared Error: 0.9892091367803421. The evaluation results help in understanding the performance of the model.
+The model is evaluated using R-squared score. R Squared Error: 0.7454471618659976. The evaluation results help in understanding the performance of the model.
 
 # Technologies
 Python: Programming language
